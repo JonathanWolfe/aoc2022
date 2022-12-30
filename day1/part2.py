@@ -25,7 +25,12 @@ def main():
     totals.sort(reverse=True)
 
     print(totals)
+    print("")
     print("Highest", totals[0])
+    print("2nd Highest", totals[1])
+    print("3rd Highest", totals[2])
+    print("")
+    print("Combined total", sum(totals[0:3]))
 
 
 if __name__ == "__main__":

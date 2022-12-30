@@ -3,7 +3,6 @@
 This is a template repository for any Python project that comes with the following dev tools:
 
 * `black`: auto-formats code
-* `isort`: sorts the imports
 * `ruff`: looks for common errors
 * `pyupgrade`: upgrades Python syntax
 

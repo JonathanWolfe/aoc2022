@@ -7,13 +7,48 @@ addopts = "-ra --cov"
 testpaths = ["tests"]
 pythonpath = ['.']
 
-[tool.pylint.messages_control]
-disable = "C0114,C0115,C0116"
-
-[tool.isort]
-profile = "black"
-
 [tool.ruff]
-line-length = 100
-ignore = ["D203"]
+select = [
+  "A",
+  "ALL",
+  "ANN",
+  "ARG",
+  "B",
+  "BLE",
+  "C",
+  "D",
+  "DTZ",
+  "E",
+  "EM",
+  "ERA",
+  "F",
+  "FBT",
+  "I",
+  "IC",
+  "ICN",
+  "M",
+  "N",
+  "PD",
+  "PDV",
+  "PGH",
+  "PLC",
+  "PLE",
+  "PLR",
+  "PLW",
+  "Q",
+  "R",
+  "RET",
+  "RUF",
+  "S",
+  "SIM",
+  "T",
+  "TID",
+  "U",
+  "UP",
+  "W",
+  "YTT",
+]
+
+line-length = 88
 show-source = true
+fix = true
